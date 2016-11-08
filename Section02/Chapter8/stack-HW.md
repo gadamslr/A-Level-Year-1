@@ -1,8 +1,5 @@
 #Chapter 8: Stacks Homework
-Before attempting the questions, read sections 2.2 and 2.4 of your textbook (pages 80-84 and 95-103).
-
-Please refer to the **homework policy** for guidance of how to complete and submit this homework.
-
+Before attempting the questions, read Chapter 8 of your textbook (http://my.dynamic-learning.co.uk/).
 
 ##Question 1
 
