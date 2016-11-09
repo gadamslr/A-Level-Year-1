@@ -16,9 +16,9 @@ Before attempting the questions, read Chapter 8 of your textbook (http://my.dyna
 
 A *recursively-defined* `function B`, which takes an integer as its single parameter, is defined below. The operators `//` and `%` perform integer arithmetic.
 
-``x // y`` Floor Division calculates how many times y divides exactly into x. For example `7 // 3 = 2`.
+``x // y`` 'Floor Division' calculates how many times y divides exactly into x. For example `7 // 3 = 2`.
 
-`x % y` Modulus calculates the remainder that results. For example `7 % 3 = 1`.
+`x % y` 'Modulus' calculates the remainder that results. For example `7 % 3 = 1`.
 
 ````python
 def B(number):
