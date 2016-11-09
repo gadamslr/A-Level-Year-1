@@ -1,4 +1,4 @@
-#Chapter 8: Stacks Homework
+#Chapter 8: Stacks - Challenges
 Before attempting the questions, read Chapter 8 of your textbook (http://my.dynamic-learning.co.uk/).
 
 ##Question 1
