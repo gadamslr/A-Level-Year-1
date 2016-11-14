@@ -1,0 +1,52 @@
+# Creating a Graph
+
+import networkx as nx
+
+# assigning G as the name of the graph we will make
+
+G = nx.Graph()
+
+# Creating a single Node
+
+G.add_node("Michael")
+
+# Adding a list of Nodes
+
+G.add_nodes_from(["John","Eric"])
+
+# Adding edges of Nodes
+
+G.add_edge("Michael","John")
+G.add_edge("John","Eric")
+G.add_edge("Eric","Michael")
+
+#Adding positions for each of the vertices:
+
+pos = nx.random_layout(G) # This example I have used the 
+
+#Other types of layouts can be found below [you will need to reesarch the advantages of each layout]:
+#pos = nx.spring_layout(G,iterations=1000)
+#pos = nx.circular_layout(G)
+
+
+import matplotlib.pyplot as plt
+
+# To draw the graph with the node and vertices use draw()
+#nx.draw(G)
+#nx.draw_random(G)
+#nx.draw_circular(G)
+#nx.draw_spectral(G)
+
+# To draw the graph with the node names use draw_networkx()
+nx.draw_networkx(G)
+
+# To print just the nodes on the graph use draw_networkx_nodes()
+#nx.draw_networkx_nodes(G,pos)
+# To print just the edges on the graph use draw_networkx_nodes()
+#nx.draw_networkx_edges(G,pos)
+
+plt.show()
+
+
+
+
