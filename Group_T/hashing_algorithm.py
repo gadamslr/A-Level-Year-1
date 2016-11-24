@@ -28,7 +28,7 @@ def addStudents():
 
 #function to print out the dictionary
 def outputStuents(stuDict):
-    print(stuDict)
+    print(stuDict) #outputs the dictionary "stuDict"
 
 def menu():
     choice = int(input("Choose from the following options:\n\
