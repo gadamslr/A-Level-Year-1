@@ -1,3 +1,5 @@
+#james
+
 stuDict = {}
 keepGoing = True
 slots = int(input("The numbers of SLOTS in your array /  data table:"))
