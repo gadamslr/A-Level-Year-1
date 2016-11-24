@@ -24,7 +24,7 @@ def addStudents():
 
     return(tempDict)
 
-
+#function to print out the dictionary
 def outputStuents(stuDict):
     print(stuDict)
 
