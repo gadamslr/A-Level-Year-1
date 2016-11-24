@@ -8,6 +8,7 @@ def addStudents():
     tempDict = {}
     stuName = input("Enter the name of a student:")
 
+    # Convert each letter in the inputted name into the ascii code and add them together
     for element in list(stuName):
         count += ord(element)
 
