@@ -1,11 +1,11 @@
 stuDict = {}
 keepGoing = True
-maxStudents = int(input("Enter the maximum number of students allowed in a class:"))
+slots = int(input("The numbers of SLOTS in your array /  data table:"))
 
 def addStudents():
-    global maxStudents
+    global slots
     count = 0
-    xDict = {}
+    tempDict = {}
     stuName = input("Enter the name of a student:")
 
     for element in list(stuName):
@@ -13,15 +13,15 @@ def addStudents():
 
     print(count)
 
-    index = count % maxStudents
+    index = count % slots
 
     print("index = ", index)
 
-    xDict[index] = stuName
+    tempDict[index] = stuName
 
-    print(xDict)
+    print(tempDict)
 
-    return(xDict)
+    return(tempDict)
 
 
 def outputStuents(stuDict):
