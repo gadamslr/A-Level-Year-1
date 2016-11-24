@@ -1,3 +1,5 @@
+
+print("a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort") 
 stuDict = {}
 keepGoing = True
 slots = int(input("The numbers of SLOTS in your array /  data table:"))
@@ -8,7 +10,6 @@ def addStudents():
     tempDict = {}
     stuName = input("Enter the name of a student:")
 
-    # Convert each letter in the inputted name into the ascii code and add them together
     for element in list(stuName):
         count += ord(element)
 
@@ -23,7 +24,7 @@ def addStudents():
     print(tempDict)
 
     return(tempDict)
-
+    
 
 def outputStuents(stuDict):
     print(stuDict)
