@@ -13,7 +13,7 @@ def addStudents():
         count += ord(element)
 
     print(count)
-
+# Divides left hand operand by right hand operand and returns remainder
     index = count % slots
 
     print("index = ", index)
