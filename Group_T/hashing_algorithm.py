@@ -13,7 +13,7 @@ def addStudents():
         count += ord(element)
 
     print(count)
-
+# this iwll calculate the modulo based on the count and number of slots
     index = count % slots
 
     print("index = ", index)
